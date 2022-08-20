@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Pic</title>
+    {% load static %}
+
+    <link rel="stylesheet" href= "{% static 'css/mystyle.css' %}" />
+  </head>
+  <body>
+    <h1> This is my picture </h1>
+
+    <img src="{% static 'images/my_pic.jpg' %}" alt="">
+  </body>
+</html>
